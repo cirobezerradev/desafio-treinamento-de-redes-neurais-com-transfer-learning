@@ -310,5 +310,6 @@ plt.show()
 ---
 ### Considerações Finais
 Ao estudar sobre `transfer learning`, percebi a possibilidade de realizar o fine-tuning, que consiste em descongelar todas as camadas do modelo base. No entanto, observei que trata-se de um processo mais pesado, o que provavelmente inviabiliza sua execução no Colab Free.
+
 A realização deste desafio foi uma experiência valiosa, que me permitiu compreender melhor as etapas do `transfer learning` e os principais desafios que podem surgir durante o treinamento.
 
