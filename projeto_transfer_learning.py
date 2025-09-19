@@ -125,7 +125,7 @@ AUTOTUNE = tf.data.AUTOTUNE
 train_dataset = train_dataset.cache().shuffle(1000).prefetch(buffer_size=AUTOTUNE)
 val_dataset = val_dataset.cache().prefetch(buffer_size=AUTOTUNE)
 
-"""Passo 6: Criar o modelo Base MobileNetV2"""
+"""Passo 6: Carregar o modelo Base MobileNetV2"""
 
 # Carregar MobileNetV2 pré-treinado na imagenet
 base_model = tf.keras.applications.MobileNetV2(input_shape=(IMG_SIZE, IMG_SIZE, 3),
